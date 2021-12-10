@@ -1,0 +1,19 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito+Sans:wght@300&display=swap');
+.separator {
+  min-height: 24px;
+}
+
+.primary-font {
+  font-family: 'Lora', serif;
+  letter-spacing: .15rem;
+}
+
+.secondary-font {
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+body {
+  background-color: rgba(10, 20, 200, 0.1);
+}
