@@ -37,45 +37,11 @@
         <a class="navbar-item" href="#">
           Projets
         </a>
-      <!--
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More
-          </a>
-  
-          <div class="navbar-dropdown">
-            <a class="navbar-item">
-              About
-            </a>
-            <a class="navbar-item">
-              Jobs
-            </a>
-            <a class="navbar-item">
-              Contact
-            </a>
-            <hr class="navbar-divider">
-            <a class="navbar-item">
-              Report an issue
-            </a>
-          </div>
-        </div>
-      -->
+        <a class="navbar-item" href="veille.html">
+          Veille Technologique
+        </a>
       </div>
   
-      <div class="navbar-end">
-          <!--
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-primary">
-              <strong>Contact</strong>
-            </a>
-            <a class="button is-light">
-              Log in
-            </a>
-          </div>
-        </div>
-          -->            
-      </div>
     </div>
   </nav>
 
@@ -106,7 +72,7 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="assets/adni_cropped.png" alt="Placeholder image">
+                <img src="assets/adni_cropped.png" alt="adni">
               </figure>
             </div>
             <div class="card-content">
@@ -118,9 +84,9 @@
               </div>
           
               <div class="content">
-                Plateforme de mise en relations des collectivités, commerçant et consommateurs du nord-Isère.
+                Plateforme de mise en relations des adminsitrations, entreprises et particuliers du nord-Isère.
                 <br>
-                Stack GraphQL, Node.js, Vue.js
+                Mise en place d'une API. Developpement de composants en front. Stack GraphQL, Node.js, Vue.js
               </div>
             </div>
           </div>
@@ -144,7 +110,7 @@
               <div class="content">
                 Série de 4 mini-serious games pour informer les enfants atteints de leucémie et leurs proches.
                 <br>
-                Stack Godot, GDscript, Vue.js
+                Game-design, implémentation et animation. Stack Godot, GDscript, Vue.js
               </div>
             </div>
           </div>
@@ -168,7 +134,7 @@
               <div class="content">
                 Maintenance et enrichissement du back-office d'un site d'actualités agricoles.
                 <br>
-                Stack RailsServer, Ruby, jade.
+                Developpement de nouvelle fonctionalité et correction de bugs. Stack RailsServer, Ruby, pug.
               </div>
             </div>
           </div>
@@ -196,9 +162,9 @@
               </div>
           
               <div class="content">
-                Application comptable de gestion de frais.
+                Application de gestion de frais.
                 <br>
-                Stack Angular, Node.js, Express
+                Mise en place d'une API, composants front. Stack Angular, Node.js, Express, MySQL
               </div>
             </div>
           </div>
@@ -220,9 +186,9 @@
               </div>
           
               <div class="content">
-                Dynamisations de sites statiques
+                Integration à partir de maquettes, dynamisation de sites statiques.
                 <br>
-                PHP, Wordpress
+                Stack PHP, Wordpress
               </div>
             </div>
           </div>
@@ -252,7 +218,7 @@
                     <div class="content">
                       Jeu du snake en multijoueur en resolution 64x64
                       <br>
-                      Moteur Godot, GDscript
+                      Game-design, implémentation, pixel-art. Stack Godot, GDscript, Aseprite.
                     </div>
                   </div>
                 </div>
@@ -293,17 +259,21 @@
     </div>
   </section>
 
+  <section class="is-small">
+    <div class="">
+      <div class="">
+        <br>
+        <br>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
 
 <style>
 .flip-card {
   background-color: transparent;
-
-  /*
-  width: 480px;
-  height: 360px;
-  */
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -313,7 +283,6 @@
   position: relative;
   width: 100%;
   height: 100%;
-  text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
@@ -343,5 +312,6 @@
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+  min-height:100%;
 }
 </style>
