@@ -35,10 +35,10 @@
         </a>
   
         <a class="navbar-item" href="#">
-          Projets
+          Réalisations
         </a>
         <a class="navbar-item" href="veille.html">
-          Veille Technologique
+          Veille
         </a>
       </div>
   
@@ -48,7 +48,7 @@
   <section class="hero is-small is-info">
     <div class="hero-body">
       <p class="title primary-font">
-        Projets
+        Réalisations
       </p>
     </div>
   </section>
@@ -57,6 +57,7 @@
     <div class="">
       <div class="">
         <br>
+
         <br>
       </div>
     </div>
@@ -149,22 +150,22 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="assets/gsb.png" alt="Placeholder image">
+                <img src="assets/gsb_01.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
               <div class="media">
 
                 <div class="media-content">
-                  <p class="title is-4 secondary-font">Projet GSB</p>
+                  <p class="title is-4 secondary-font">Projet Personnel Encadré</p>
                   <p class="title is-6">Cours option SLAM</p>
                 </div>
               </div>
           
               <div class="content">
-                Application de gestion de frais.
+                Applications web et mobile de gestion de frais.
                 <br>
-                Mise en place d'une API, composants front. Stack Angular, Node.js, Express, MySQL
+                Mise en place d'une API, composants front. Stack Node.js, Express, Angular, Flutter
               </div>
             </div>
           </div>
@@ -186,7 +187,7 @@
               </div>
           
               <div class="content">
-                Integration à partir de maquettes, dynamisation de sites statiques.
+                Intégration à partir de maquettes, dynamisation de sites statiques.
                 <br>
                 Stack PHP, Wordpress
               </div>
@@ -294,50 +295,35 @@
     </div>
   </section>
 
+  <section class="is-small">
+    <div class="">
+      <p class="title is-2 primary-font">Projets personnels</p>
+
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <a href="https://gitlab.com/felix.ravella/fusegif"> Fusionneur de GIFs </a>
+          <br>
+          <a href="https://gitlab.com/felix.ravella/cyberpunk_hacking"> Createur de donjon pour le jeu de rôles Cyberpunk Red </a>
+          <br>
+          <a href="https://gitlab.com/felix.ravella/search-engine"> Scrapper Web </a>
+          <br>
+          <a href="https://gitlab.com/felix.ravella/daemon"> Inscription et connexion </a>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="is-small">
+    <div class="">
+      <div class="">
+        <br>
+        <br>
+      </div>
+    </div>
+  </section>
+
+
 </body>
 </html>
 
-<style>
-.flip-card {
-  background-color: transparent;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
-  min-height:100%;
-}
-</style>
